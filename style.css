@@ -1,0 +1,135 @@
+.background {
+    background-image: url('assets/code.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar a {
+    color: white;
+}
+
+.background-c{
+    background-color: #ebebed;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.name{
+    text-align: center;
+    background-color: #7d92b0;
+    padding: 5px;
+    color: white;
+}
+
+.social{
+    padding-top: 5px;
+    text-align: center;
+}
+
+.head{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile-c {
+    flex: 1; 
+    text-align: center; 
+}
+  
+.text-c {
+    flex: 3; 
+}
+  
+.about-c {
+    flex: 2; 
+    padding: 10px; 
+}
+
+.text-c{
+    padding-left: 30px;
+}
+
+.label-container {
+    background-color: #b1c6e3;
+    padding: 10px; 
+    display: inline-block; 
+    margin-top: 49px;
+    margin-bottom: 30px;
+}
+
+.label {
+    color: white;
+    margin: 0;
+}
+
+.gray{
+    background-color: #7d92b0;
+    padding: 12px;
+    margin-top: -12px;
+}
+
+.profile {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.title-white {
+    color: white;
+    margin-top: 10px;
+}
+
+.title-black{
+    color: black;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .divided {
+        flex-direction: column; 
+        align-items: center;
+    }
+}
+
+span{
+    background-color: #7d92b0;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.card{
+    margin-left: 5px;
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 15px;
+}
